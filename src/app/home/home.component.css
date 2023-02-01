@@ -1,0 +1,47 @@
+.chem {
+    max-width: 48%;
+    display: inline-block;
+    border-style: solid;
+    border-width: thin;
+    height: 90vh;
+    margin-top: 10px;
+    margin-left: 28px;
+    border-radius: 15px;
+    box-shadow: 3px 7px;
+    color: lightgray;
+}
+  
+
+.chem:hover{
+    transform: scale(1.01);
+}
+
+.bio {
+    background-color: rgb(124, 105, 77);
+    max-width: 50%;
+    display: inline-block;
+}
+
+.bio:hover{
+    transform: scale(1.02);
+}
+  
+.chemPhoto {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/f9/The_Bromfield_Mascot%2C_the_Trojan.jpg');
+    background-size: cover;
+    background-position:50% 50%;
+
+}
+ 
+.home{
+    background-color: rgb(20, 20, 20);
+    height:93.4%
+}
+
+.imgs{
+    object-fit: cover; /*this makes the image in src fit to the size specified below*/
+    width: 100%; /* Here you can use wherever you want to specify the width and also the height of the <img>*/
+    height:  71%;
+  }
+
+
